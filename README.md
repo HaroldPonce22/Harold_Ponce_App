@@ -1,10 +1,10 @@
-# Prework - *Name of App Here*
+# Prework - Harolds Color Changer
 
-Submitted by: **Your Name Here**
+Submitted by: Harold Ponce Saldivar
 
-**Name of your app** is an app that... [TODO] 
+Harolds Color Changer is an app that changes the color of your screen to a random color when the green button is pressed.
 
-Time spent: **X** hours spent in total
+Time spent: **1** hours spent in total
 
 ## Required Features
 
