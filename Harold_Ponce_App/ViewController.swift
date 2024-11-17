@@ -8,8 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var label3: UILabel!
     override func viewDidLoad() {
+    
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
@@ -17,6 +20,7 @@ class ViewController: UIViewController {
     @IBAction func ChangeBackgroundColor(_ sender: UIButton) {
         let randomColor = changeColor()
         view.backgroundColor = randomColor
+        updateLabelColors()
     }
     
     func changeColor()->UIColor{
@@ -27,5 +31,19 @@ class ViewController: UIViewController {
         return UIColor(red: red, green: green, blue: blue, alpha:0.5 )
     }
     
+    func updateLabelColors(){
+        let randomLabelColor = changeColor()
+        label1.textColor = randomLabelColor
+        label2.textColor = randomLabelColor
+        label3.textColor = randomLabelColor
+        
+        label1.backgroundColor = randomLabelColor
+        label2.backgroundColor = randomLabelColor
+        label3.backgroundColor = randomLabelColor
+        
+        
+    }
+    
+   
 }
 
