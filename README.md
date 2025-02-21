@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 https://www.loom.com/share/69a3773496ac46139200aa61a6e4342a?sid=4dce8d71-68ef-4ceb-a067-0dd0d354c26c
 
-## App Brainstorming (Step 4)
+## App Brainstorming
 
 App Examples:
 Venmo
