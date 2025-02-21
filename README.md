@@ -1,4 +1,4 @@
-# Prework - Harolds Color Changer
+# Harolds Color Changer
 
 Submitted by: Harold Ponce Saldivar
 
